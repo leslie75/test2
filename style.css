@@ -1,0 +1,86 @@
+h1, h2, h3 {
+	font-family:'Montserrat'; sans-serif
+	font weight:bold;
+}
+
+h1
+{color:#770058;
+font-size: 64px;}
+
+h2
+{color:#8E0045;
+font-weight: medium 500
+font-size: 24px;}
+
+body {
+	font-family:'Montserrat'; sans-serif
+	font-size: 16px;
+	margin: 0;
+}
+
+a
+{color:#F39B6D;
+text-decoration: none;
+font-weight:bold;
+font-size: 18px;}
+
+.banner {
+text-align:center ;
+color: rgb(240, 240, 240); 
+background-image: url('https://images.unsplash.com/photo-1528460033278-a6ba57020470?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80'); 
+padding: 150px 0px;
+background-position: center}
+
+.banner h1 {
+	font-size: 56px;
+}
+
+.banner p {
+	color: #808080;
+	font-size: 32px;
+	font-weight: lighter;
+	margin-bottom: 40px;
+	opacity:0.8;
+}
+
+.button-orange {
+	background-color: #F39B6D;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.button-orange: hover {
+	background-color: #808080;
+	color: rgb (50, 50, 93);
+}
+
+.card-white{
+	background-color: rgb(245, 245, 245); 
+	border-radius: 4px;
+	text-align: center; 
+	padding: 16px;
+	margin: 16px 0;
+	box-shadow: 0 5px 6px rgb(200, 200, 200);
+}
+
+.footer{
+	background-color: rgb(50,50,50);
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.footer a {
+	color: white; 
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0;
+}
+
+.list-inline li{
+display: inline;
+padding: 0 16px;
+}
